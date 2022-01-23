@@ -1,4 +1,4 @@
-import "../style/CallMonitor.css";
+import "../pages/style/CallMonitor.css";
 import React from "react";
 
 function CallMonitor() {

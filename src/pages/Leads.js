@@ -1,4 +1,4 @@
-import "../style/Leads.css";
+import "../pages/style/Leads.css";
 import React from "react";
 
 function Leads() {

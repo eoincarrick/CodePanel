@@ -1,4 +1,4 @@
-import "../style/Logout.css";
+import "../pages/style/Logout.css";
 import React from "react";
 
 function Logout() {

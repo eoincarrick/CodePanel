@@ -1,4 +1,4 @@
-import "../style/Dashboard.css";
+import "../pages/style/Dashboard.css";
 import React from "react";
 
 function Dashboard() {

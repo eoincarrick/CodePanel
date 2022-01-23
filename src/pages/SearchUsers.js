@@ -1,4 +1,4 @@
-import "../style/SearchUsers.css";
+import "../pages/style/SearchUsers.css";
 import React from "react";
 
 function SearchUsers() {

@@ -1,4 +1,4 @@
-import "../style/History.css";
+import "../pages/style/History.css";
 import React from "react";
 
 function History() {
