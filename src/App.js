@@ -7,6 +7,7 @@ import SearchUsers from "./pages/SearchUsers";
 import History from "./pages/History";
 import Revenue from "./pages/Revenue";
 import Expenses from "./pages/Expenses";
+import Home from "./pages/Home";
 import BusinessAccount from "./pages/BusinessAccount";
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/" exact element={<Home />} />
         <Route path="/CallMonitor" element={<CallMonitor />} />
         <Route path="/Profile" element={<Profile />} />
         <Route path="/Logout" element={<Logout />} />
