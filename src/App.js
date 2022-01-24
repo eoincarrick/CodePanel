@@ -7,12 +7,10 @@ import SearchUsers from "./pages/SearchUsers";
 import History from "./pages/History";
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
       <Routes>
         <Route path="/CallMonitor" element={<CallMonitor />} />
         <Route path="/Profile" element={<Profile />} />
