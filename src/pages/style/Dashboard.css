@@ -80,3 +80,28 @@
   border: 0.2rem solid #fff;
   margin: 1rem 1rem 0 0;
 }
+
+.headerOne > p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #9d9d9e;
+}
+
+.contentAndNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.subNavbar {
+  margin-top: 4.4rem;
+  display: flex;
+}
+
+.links {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}

@@ -31,19 +31,27 @@ function Dashboard() {
           <div className="contentAndNavbar">
             <div className="headerOne">
               <h1>Welcome</h1>
-              <p>Dear user, it is now to explore the whole dashboard.</p>
+              <p>
+                Dear user, it is now time to explore the your working space.
+              </p>
             </div>
 
-            <div className="navbar">
-              <Link>Business Account</Link>
-              <Link> Revenue</Link>
-              <Link>Expenses</Link>
-              <Link>
-                <FaEllipsisH />
+            <div className="subNavbar">
+              <Link className="links" to="/BusinessAccount">
+                Business Account
               </Link>
+              <Link className="links" to="/Revenue">
+                Revenue
+              </Link>
+              <Link className="links" to="/Expenses">
+                Expenses
+              </Link>
+              <FaEllipsisH />
             </div>
           </div>
         </div>
+
+        <div className="workSpace"></div>
       </div>
     </div>
   );
