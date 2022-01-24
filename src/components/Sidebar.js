@@ -24,10 +24,10 @@ function Sidebar() {
         <Link className="link" to="/Dashboard">
           <FaFolder className="icons" /> Dashboard
         </Link>
-        <Link className="link" to="/Search_Users">
+        <Link className="link" to="/SearchUsers">
           <FaSearch className="icons" /> Search Users
         </Link>
-        <Link className="link" to="/Call_Monitor">
+        <Link className="link" to="/CallMonitor">
           <FaPhoneAlt className="icons" /> Call Monitor
         </Link>
         <Link className="link" to="/History">
