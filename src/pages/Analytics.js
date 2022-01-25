@@ -1,8 +1,8 @@
-import "../pages/style/Leads.css";
+import "../pages/style/Analytics.css";
 import React from "react";
 import Sidebar from "../components/Sidebar.js";
 
-function Leads() {
+function Analytics() {
   return (
     <div>
       <Sidebar />
@@ -10,4 +10,4 @@ function Leads() {
   );
 }
 
-export default Leads;
+export default Analytics;

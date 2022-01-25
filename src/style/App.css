@@ -9,4 +9,5 @@
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
+  box-shadow: 0 0 0.3rem 0.01rem rgb(131, 130, 130);
 }

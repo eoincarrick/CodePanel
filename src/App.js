@@ -1,6 +1,6 @@
 import CallMonitor from "./pages/CallMonitor";
 import Dashboard from "./pages/Dashboard";
-import Leads from "./pages/Leads";
+import Analytics from "./pages/Analytics";
 import Logout from "./pages/Logout";
 import Profile from "./pages/Profile";
 import SearchUsers from "./pages/SearchUsers";
@@ -23,10 +23,10 @@ function App() {
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/SearchUsers" element={<SearchUsers />} />
         <Route path="/History" element={<History />} />
-        <Route path="/Leads" element={<Leads />} />
-        <Route path="/Leads" element={<Revenue />} />
-        <Route path="/Leads" element={<Expenses />} />
-        <Route path="/Leads" element={<BusinessAccount />} />
+        <Route path="/Analytics" element={<Analytics />} />
+        <Route path="/Revenue" element={<Revenue />} />
+        <Route path="/Expenses" element={<Expenses />} />
+        <Route path="/BusinessAccount" element={<BusinessAccount />} />
       </Routes>
     </div>
   );
