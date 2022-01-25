@@ -4,9 +4,16 @@ import Sidebar from "../components/Sidebar.js";
 import profile from "../assets/profile.jpg";
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import PolarAreaChart from "../charts/PolarAreaChart";
 
 function Dashboard() {
+  const codeSpace = [
+    "BitBucket",
+    "GitHub",
+    "GitLab",
+    "Stack Overflow",
+    "Codeswar",
+  ];
+
   return (
     <div className="dashBoard">
       <Sidebar />
@@ -52,7 +59,7 @@ function Dashboard() {
         </div>
 
         <div className="workSpace">
-          {/* <div className="wholeChart">
+          <div className="wholeChart">
             <div className="setLocation">
               <div className="chart"></div>
 
@@ -62,11 +69,9 @@ function Dashboard() {
             <div className="averageRate"></div>
 
             <div className="overWeeks"></div>
-          </div> */}
+          </div>
 
-          <PolarAreaChart />
-
-          {/* <div className="conversion">
+          <div className="conversion">
             <div className="headerFour">
               <h4></h4>
             </div>
@@ -76,7 +81,7 @@ function Dashboard() {
             </div>
 
             <div className="peakAndCall"></div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

@@ -32,7 +32,7 @@
 
 .subMain {
   width: 100%;
-  height: 100;
+  height: 13em;
 }
 
 .navbar {
@@ -104,4 +104,22 @@
   text-decoration: none;
   color: #000;
   font-weight: 500;
+}
+
+.workSpace {
+  width: 100%;
+  height: 31rem;
+}
+
+.setLocation {
+  width: 45rem;
+  height: 15rem;
+  background-color: #ffffff;
+  margin: 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  box-shadow: 0 0 0.2rem 0.01rem rgb(207, 206, 206);
 }
