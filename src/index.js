@@ -4,7 +4,7 @@ import "./style/index.css";
 import App from "./App";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const root = document.querySelector("#adminPanel");
+const root = document.querySelector("#codePanel");
 
 ReactDOM.render(
   <React.StrictMode>
