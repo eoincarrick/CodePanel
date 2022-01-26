@@ -15,6 +15,7 @@ function About() {
           <div className="headerOne">
             <h1>About Our Code Panel</h1>
           </div>
+
           <div className="para">
             We help developers like you #track, #manage, and with our additional
             #analytic tool to #Monitor your followers, on GitHub, GitLab,
@@ -23,10 +24,12 @@ function About() {
             connected account safely. We hope to make things easy for you.
           </div>
         </div>
+
         <div className="rightSide">
           <div className="headerThree">
             <h3>What You Can Do</h3>
           </div>
+
           <div className="paraContainer">
             <div className="paraOne">
               <FaEye />
@@ -36,6 +39,7 @@ function About() {
                 more.
               </p>
             </div>
+
             <div className="paraTwo">
               <FaCommentAlt />
               <p>
@@ -44,6 +48,7 @@ function About() {
                 here.
               </p>
             </div>
+
             <div className="paraThree">
               <FaChartLine />
               <p>
