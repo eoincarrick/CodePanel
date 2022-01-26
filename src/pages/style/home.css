@@ -1,0 +1,56 @@
+.homeContainer {
+  margin: auto;
+  width: 87rem;
+  height: 42rem;
+  background-color: #f0efef;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  transform: translate(0rem, 1rem);
+  -webkit-transform: translate(0rem, 1rem);
+  -moz-transform: translate(0rem, 1rem);
+  -ms-transform: translate(0rem, 1rem);
+  -o-transform: translate(0rem, 1rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h1Header {
+  padding: 2rem;
+}
+
+.h1Header > h1 {
+  font-size: 4rem;
+}
+
+.headerPara {
+  width: 25em;
+  font-weight: 600;
+}
+
+.btnJoin {
+  background-color: #ff6004;
+  color: #ffffff;
+  border: none;
+  width: 6rem;
+  height: 3rem;
+}
+
+.color {
+  color: #ff6004;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.imgHome {
+  width: 35rem;
+  height: 35rem;
+}
