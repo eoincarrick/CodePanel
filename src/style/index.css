@@ -11,9 +11,5 @@ body {
   height: 100%;
   overflow: hidden;
   background-color: #ff9900;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  user-select: none;
 }
