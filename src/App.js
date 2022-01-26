@@ -11,7 +11,6 @@ import Home from "./pages/Home";
 import About from "./House/About";
 import Contact from "./House/Contact";
 import Team from "./House/Team";
-import WhyUs from "./House/WhyUs";
 import BusinessAccount from "./pages/BusinessAccount";
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
@@ -34,7 +33,6 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Team" element={<Team />} />
-        <Route path="/WhyChooseUs" element={<WhyUs />} />
       </Routes>
     </div>
   );

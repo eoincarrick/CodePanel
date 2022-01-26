@@ -23,18 +23,20 @@
   margin: 0 0 0 3.5rem;
 }
 
-.headerOne {
+.headerOne1 {
   border-left: 1rem solid #ff9900;
 }
 
-.headerOne > h1 {
+.headerOne1 > h1 {
   font-size: 4rem;
   margin-left: 1rem;
+  color: #838080;
 }
 
 .para {
   margin-top: -1.2rem;
   width: 30rem;
+  font-weight: 600;
 }
 
 .rightSide {
@@ -46,6 +48,7 @@
 
 .headerThree > h3 {
   font-size: 2rem;
+  color: #504e4e;
 }
 
 .aboutIcons {
@@ -65,4 +68,5 @@
 
 .pTag {
   width: 20rem;
+  font-weight: 600;
 }

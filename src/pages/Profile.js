@@ -5,7 +5,10 @@ import Sidebar from "../components/Sidebar.js";
 function Profile() {
   return (
     <div>
-      <Sidebar />
+      <div>
+        <Sidebar />
+      </div>
+      <div className="profileContainer"></div>
     </div>
   );
 }

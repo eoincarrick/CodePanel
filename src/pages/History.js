@@ -5,7 +5,10 @@ import Sidebar from "../components/Sidebar.js";
 function History() {
   return (
     <div>
-      <Sidebar />
+      <div>
+        <Sidebar />
+      </div>
+      <div className="historyContainer"></div>
     </div>
   );
 }

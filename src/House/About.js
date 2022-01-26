@@ -12,7 +12,7 @@ function About() {
 
       <div className="AboutContainer">
         <div className="leftSide">
-          <div className="headerOne">
+          <div className="headerOne1">
             <h1>
               About Our <br />
               Code Panel

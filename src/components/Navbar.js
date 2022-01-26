@@ -25,9 +25,6 @@ function Navbar() {
           <FaAt className="icon" />
           Contact
         </Link>
-        <Link className="linkList" to="/WhyChooseUs">
-          <FaHandPointRight className="icon" /> Why Us
-        </Link>
         <Link className="linkList" to="/Team">
           <FaUsers className="icon" />
           Team

@@ -5,7 +5,10 @@ import Sidebar from "../components/Sidebar.js";
 function Analytics() {
   return (
     <div>
-      <Sidebar />
+      <div>
+        <Sidebar />
+      </div>
+      <div className="analyticContainer"></div>
     </div>
   );
 }

@@ -5,7 +5,10 @@ import Sidebar from "../components/Sidebar.js";
 function CallMonitor() {
   return (
     <div>
-      <Sidebar />
+      <div>
+        <Sidebar />
+      </div>
+      <div className="messageContainer"></div>
     </div>
   );
 }
