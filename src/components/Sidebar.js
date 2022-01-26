@@ -6,9 +6,9 @@ import {
   FaSearch,
   FaPhoneAlt,
   FaHistory,
-  FaStar,
   FaUserAlt,
   FaSignOutAlt,
+  FaChartLine,
 } from "react-icons/fa";
 
 function Sidebar() {
@@ -34,7 +34,7 @@ function Sidebar() {
           <FaHistory className="icons" /> History
         </Link>
         <Link className="link" to="/Analytics">
-          <FaStar className="icons" /> Leads
+          <FaChartLine className="icons" /> Analytics
         </Link>
         <Link className="link" to="/Profile">
           <FaUserAlt className="icons" /> Profile

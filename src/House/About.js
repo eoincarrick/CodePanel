@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { FaEye } from "react-icons/fa";
+import "../House/style/About.css";
+import { FaChartLine, FaCommentAlt, FaEye } from "react-icons/fa";
 
 function About() {
   return (
@@ -35,8 +36,21 @@ function About() {
                 more.
               </p>
             </div>
-            <div className="paraTwo"></div>
-            <div className="paraThree"></div>
+            <div className="paraTwo">
+              <FaCommentAlt />
+              <p>
+                Waste no time communicating with your team or followers by
+                visiting every account to reply them, when you can do all that
+                here.
+              </p>
+            </div>
+            <div className="paraThree">
+              <FaChartLine />
+              <p>
+                Check your page or profile on every account out there. We give
+                you full access to everything for free.
+              </p>
+            </div>
           </div>
         </div>
       </div>
