@@ -33,7 +33,7 @@ function Sidebar() {
         <Link className="link" to="/History">
           <FaHistory className="icons" /> History
         </Link>
-        <Link className="link" to="/Leads">
+        <Link className="link" to="/Analytics">
           <FaStar className="icons" /> Leads
         </Link>
         <Link className="link" to="/Profile">
@@ -43,7 +43,7 @@ function Sidebar() {
 
       <div className="logContainer">
         <mdiViewDashboard />
-        <Link className="link" to="/Logout">
+        <Link className="link" to="/">
           <FaSignOutAlt className="icons" /> Logout
         </Link>
       </div>

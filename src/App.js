@@ -8,6 +8,10 @@ import History from "./pages/History";
 import Revenue from "./pages/Revenue";
 import Expenses from "./pages/Expenses";
 import Home from "./pages/Home";
+import About from "./House/About";
+import Contact from "./House/Contact";
+import Team from "./House/Team";
+import WhyUs from "./House/WhyUs";
 import BusinessAccount from "./pages/BusinessAccount";
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
@@ -19,7 +23,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path="/CallMonitor" element={<CallMonitor />} />
         <Route path="/Profile" element={<Profile />} />
-        <Route path="/Logout" element={<Logout />} />
+        <Route path="/" exact element={<Logout />} />
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/SearchUsers" element={<SearchUsers />} />
         <Route path="/History" element={<History />} />
@@ -27,6 +31,10 @@ function App() {
         <Route path="/Revenue" element={<Revenue />} />
         <Route path="/Expenses" element={<Expenses />} />
         <Route path="/BusinessAccount" element={<BusinessAccount />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Team" element={<Team />} />
+        <Route path="/WhyUs" element={<WhyUs />} />
       </Routes>
     </div>
   );
