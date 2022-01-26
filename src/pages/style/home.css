@@ -20,6 +20,7 @@
 
 .h1Header {
   padding: 2rem;
+  margin-left: 5rem;
 }
 
 .h1Header > h1 {
@@ -37,6 +38,7 @@
   border: none;
   width: 6rem;
   height: 3rem;
+  font-size: 1rem;
 }
 
 .color {
@@ -48,6 +50,10 @@
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
+}
+
+.homeImg {
+  margin-right: 10rem;
 }
 
 .imgHome {
