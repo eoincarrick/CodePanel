@@ -13,7 +13,10 @@ function About() {
       <div className="AboutContainer">
         <div className="leftSide">
           <div className="headerOne">
-            <h1>About Our Code Panel</h1>
+            <h1>
+              About Our <br />
+              Code Panel
+            </h1>
           </div>
 
           <div className="para">
@@ -32,8 +35,8 @@ function About() {
 
           <div className="paraContainer">
             <div className="paraOne">
-              <FaEye />
-              <p>
+              <FaEye className="aboutIcons" />
+              <p className="pTag">
                 View the number of times, a follower or a unfollower has viewed
                 any of your code, visited your profile account, forked, and
                 more.
@@ -41,8 +44,8 @@ function About() {
             </div>
 
             <div className="paraTwo">
-              <FaCommentAlt />
-              <p>
+              <FaCommentAlt className="aboutIcons" />
+              <p className="pTag">
                 Waste no time communicating with your team or followers by
                 visiting every account to reply them, when you can do all that
                 here.
@@ -50,8 +53,8 @@ function About() {
             </div>
 
             <div className="paraThree">
-              <FaChartLine />
-              <p>
+              <FaChartLine className="aboutIcons" />
+              <p className="pTag">
                 Check your page or profile on every account out there. We give
                 you full access to everything for free.
               </p>
