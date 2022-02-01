@@ -40,46 +40,11 @@
   justify-content: flex-end;
 }
 
-.input {
-  display: flex;
-  justify-content: center;
-  width: 15rem;
-  height: 3rem;
-  align-items: center;
-  background-color: #fff;
-  box-shadow: 0 0 0.2rem 0rem rgb(245, 228, 228);
-  border-radius: 0.4rem;
-  -webkit-border-radius: 0.4rem;
-  -moz-border-radius: 0.4rem;
-  -ms-border-radius: 0.4rem;
-  -o-border-radius: 0.4rem;
-  margin: 1rem 1rem 0 0;
-}
-
-.searchInput {
-  outline: none;
-  border: none;
-  padding: 1rem;
-  color: #c7c9cc;
-  background-color: transparent;
-}
-
 .icon {
   color: #c7c9cc;
 }
 
-.imgProfile {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  object-fit: contain;
-  border: 0.2rem solid #fff;
-  margin: 1rem 1rem 0 0;
-}
+
 
 .headerOne > p {
   font-size: 1.2rem;

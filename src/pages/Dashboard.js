@@ -1,9 +1,9 @@
 import "../pages/style/Dashboard.css";
 import React from "react";
 import Sidebar from "../components/Sidebar.js";
-import profile from "../assets/profile.jpg";
-import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Search from "../components/Search";
+import Profile from "../components/Profile";
 
 function Dashboard() {
   const codeSpace = [
@@ -20,20 +20,8 @@ function Dashboard() {
       <div className="main">
         <div className="subMain">
           <div className="navbar">
-            <div className="input">
-              <input
-                className="searchInput"
-                type="search"
-                placeholder="Search"
-              />
-              <FaSearch className="icon" />
-            </div>
-
-            <div className="profile">
-              <Link to="/Profile">
-                <img className="imgProfile" src={profile} alt="" />
-              </Link>
-            </div>
+            <Search />
+            <Profile />
           </div>
 
           <div className="contentAndNavbar">
