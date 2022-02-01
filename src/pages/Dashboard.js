@@ -6,14 +6,6 @@ import Search from "../components/Search";
 import Profile from "../components/Profile";
 
 function Dashboard() {
-  const codeSpace = [
-    "BitBucket",
-    "GitHub",
-    "GitLab",
-    "Stack Overflow",
-    "Codeswar",
-  ];
-
   return (
     <div className="dashBoard">
       <Sidebar />

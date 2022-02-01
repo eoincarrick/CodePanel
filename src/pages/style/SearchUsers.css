@@ -14,3 +14,72 @@
   -ms-transform: translate(0rem, 1rem);
   -o-transform: translate(0rem, 1rem);
 }
+
+.components {
+  display: flex;
+  justify-content: center;
+}
+
+.usersInformation {
+  width: 65rem;
+  height: 40rem;
+  background-color: #ffffff;
+  margin: 1rem 1rem 1rem 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.informationHeader {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+  border-bottom: 0.2rem solid #f0efef;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.l{
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.imageProfile {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 0.2rem solid #f0efef;
+}
+
+.faIcons{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 0.2rem solid #f0efef;
+}
+
+.lab{
+  color: #ff5e00;
+}
+
+.users {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+}

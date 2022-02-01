@@ -14,6 +14,7 @@ import Team from "./House/Team";
 import BusinessAccount from "./pages/BusinessAccount";
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
+import UserData from "./Data/UserData.json";
 
 function App() {
   return (
@@ -24,7 +25,13 @@ function App() {
         <Route path="/Profile" element={<Profile />} />
         <Route path="/" exact element={<Logout />} />
         <Route path="/Dashboard" element={<Dashboard />} />
-        <Route path="/SearchUsers" element={<SearchUsers />} />
+        <Route path="/SearchUsers" element={ {
+          UserData.map( user => <SearchUsers
+        key={user.id}
+        space={user.space}
+        username={user.username} />)
+        }
+        } />
         <Route path="/History" element={<History />} />
         <Route path="/Analytics" element={<Analytics />} />
         <Route path="/Revenue" element={<Revenue />} />
