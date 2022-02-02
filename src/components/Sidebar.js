@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {
   FaFolder,
-  FaSearch,
+  FaCode,
   FaPhoneAlt,
   FaHistory,
   FaUserAlt,
@@ -24,8 +24,9 @@ function Sidebar() {
         <Link className="link" to="/Dashboard">
           <FaFolder className="icons" /> Dashboard
         </Link>
-        <Link className="link" to="/SearchUsers">
-          <FaSearch className="icons" /> Search Users
+        <Link className="link" to="/Users">
+          <FaCode className="icons" />
+          Users
         </Link>
         <Link className="link" to="/CallMonitor">
           <FaPhoneAlt className="icons" /> Call Monitor

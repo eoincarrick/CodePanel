@@ -3,7 +3,7 @@ import Dashboard from "./pages/Dashboard";
 import Analytics from "./pages/Analytics";
 import Logout from "./pages/Logout";
 import Profile from "./pages/Profile";
-import SearchUsers from "./pages/SearchUsers";
+import Users from "./pages/Users";
 import History from "./pages/History";
 import Revenue from "./pages/Revenue";
 import Expenses from "./pages/Expenses";
@@ -14,7 +14,7 @@ import Team from "./House/Team";
 import BusinessAccount from "./pages/BusinessAccount";
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
-import UserData from "./Data/UserData.json";
+import Data from "./Data/Data.json";
 
 function App() {
   return (
@@ -25,13 +25,7 @@ function App() {
         <Route path="/Profile" element={<Profile />} />
         <Route path="/" exact element={<Logout />} />
         <Route path="/Dashboard" element={<Dashboard />} />
-        <Route path="/SearchUsers" element={ {
-          UserData.map( user => <SearchUsers
-        key={user.id}
-        space={user.space}
-        username={user.username} />)
-        }
-        } />
+        <Route path="/Users" element={<Users />} />
         <Route path="/History" element={<History />} />
         <Route path="/Analytics" element={<Analytics />} />
         <Route path="/Revenue" element={<Revenue />} />

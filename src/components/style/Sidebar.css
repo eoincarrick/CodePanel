@@ -11,8 +11,7 @@
   -moz-border-radius: 3rem 0 0 3rem;
   -ms-border-radius: 3rem 0 0 3rem;
   -o-border-radius: 3rem 0 0 3rem;
-  position: fixed;
-  left: 7rem;
+  position: absolute;
   top: 5rem;
 }
 

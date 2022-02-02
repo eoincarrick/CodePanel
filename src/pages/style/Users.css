@@ -2,7 +2,7 @@
   margin: 0rem 0 5rem 20rem;
   width: 69rem;
   height: 48rem;
-  background-color: #f0efef;
+  background-color: #e03131;
   border-radius: 3rem;
   -webkit-border-radius: 3rem;
   -moz-border-radius: 3rem;
@@ -13,6 +13,8 @@
   -moz-transform: translate(0rem, 1rem);
   -ms-transform: translate(0rem, 1rem);
   -o-transform: translate(0rem, 1rem);
+  position: absolute;
+  top: 5rem;
 }
 
 .components {
@@ -44,7 +46,7 @@
   list-style-type: none;
 }
 
-.l{
+.l {
   padding: 1rem;
   font-size: 1.1rem;
   font-weight: 600;
@@ -62,9 +64,14 @@
   border: 0.2rem solid #f0efef;
 }
 
-.faIcons{
+.underLine {
+  border-bottom: 0.01rem solid #f0efef;
+}
+
+.faIcons {
   width: 2rem;
   height: 2rem;
+  margin: 0 0.1rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -73,7 +80,7 @@
   border: 0.2rem solid #f0efef;
 }
 
-.lab{
+.lab {
   color: #ff5e00;
 }
 
@@ -82,4 +89,27 @@
   justify-content: center;
   justify-content: space-around;
   padding: 0.5rem;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border-collapse: collapse;
+}
+
+.mainTableHeader {
+  border-bottom: 0.2rem solid #f0efef;
+}
+
+.tableHeader {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
 }
