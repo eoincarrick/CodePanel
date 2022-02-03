@@ -19,6 +19,14 @@ function Users() {
         </div>
 
         <div className="usersInformation">
+          {/* <div className="spanTitle">
+            <span className="spanList">Username</span>
+            <span className="spanList">Profile</span>
+            <span className="spanList">CodeSpace</span>
+            <span className="spanList">Country</span>
+            <span className="spanList">Code View</span>
+          </div> */}
+
           <table>
             <tr className="mainTableHeader">
               <th className="tableHeader">Username</th>

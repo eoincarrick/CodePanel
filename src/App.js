@@ -25,9 +25,9 @@ function App() {
         <Route path="/Profile" element={<Profile />} />
         <Route path="/" exact element={<Logout />} />
         <Route path="/Dashboard" element={<Dashboard />} />
+        <Route path="/Users" element={<Users />} />
         <Route path="/History" element={<History />} />
         <Route path="/Analytics" element={<Analytics />} />
-        <Route path="/Users" element={<Users />} />
         <Route path="/Revenue" element={<Revenue />} />
         <Route path="/Expenses" element={<Expenses />} />
         <Route path="/BusinessAccount" element={<BusinessAccount />} />

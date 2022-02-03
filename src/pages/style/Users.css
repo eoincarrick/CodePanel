@@ -42,6 +42,15 @@
   border-bottom: 0.2rem solid #f0efef;
 }
 
+.spanTitle {
+  text-align: center;
+  margin: 2rem rem;
+}
+
+.spanList {
+  margin: 0rem 2rem;
+}
+
 .list {
   list-style-type: none;
 }
