@@ -6,8 +6,7 @@ import Profile from "../components/Profile";
 import Punk from "../assets/a.jpg";
 import { FaGithub, FaGitlab, FaStackOverflow } from "react-icons/fa";
 
-function Users({ key, space, username }) {
-  console.log(space);
+function Users() {
   return (
     <>
       <div>
