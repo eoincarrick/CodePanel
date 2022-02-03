@@ -1,0 +1,69 @@
+.messageContainer {
+  margin: 0 9rem;
+  width: 86rem;
+  height: 48rem;
+  background-color: #f0efef;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  transform: translate(0rem, 1rem);
+  -webkit-transform: translate(0rem, 1rem);
+  -moz-transform: translate(0rem, 1rem);
+  -ms-transform: translate(0rem, 1rem);
+  -o-transform: translate(0rem, 1rem);
+  position: absolute;
+  top: 5rem;
+  left: 0;
+}
+
+.chatContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.usersContainer {
+  width: 25%;
+  height: 95%;
+  margin: 1rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  position: absolute;
+}
+
+.userInputHeader {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.chatTools {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.tool {
+  width: rem;
+  height: 10rem;
+}
+
+.faTool {
+  font-size: 2rem;
+}

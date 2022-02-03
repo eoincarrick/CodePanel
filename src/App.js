@@ -1,4 +1,4 @@
-import CallMonitor from "./pages/CallMonitor";
+import Chat from "./pages/Chat";
 import Dashboard from "./pages/Dashboard";
 import Analytics from "./pages/Analytics";
 import Logout from "./pages/Logout";
@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/CallMonitor" element={<CallMonitor />} />
+        <Route path="/Chat" element={<Chat />} />
         <Route path="/Profile" element={<Profile />} />
         <Route path="/" exact element={<Logout />} />
         <Route path="/Dashboard" element={<Dashboard />} />

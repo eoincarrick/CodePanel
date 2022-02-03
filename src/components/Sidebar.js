@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import {
   FaFolder,
   FaCode,
-  FaPhoneAlt,
+  FaInbox,
   FaHistory,
   FaUserAlt,
   FaSignOutAlt,
@@ -28,8 +28,8 @@ function Sidebar() {
           <FaCode className="icons" />
           Users
         </Link>
-        <Link className="link" to="/CallMonitor">
-          <FaPhoneAlt className="icons" /> Call Monitor
+        <Link className="link" to="/Chat">
+          <FaInbox className="icons" /> Chat
         </Link>
         <Link className="link" to="/History">
           <FaHistory className="icons" /> History
