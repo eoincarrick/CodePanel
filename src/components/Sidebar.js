@@ -31,8 +31,9 @@ function Sidebar() {
         <Link className="link" to="/Chat">
           <FaInbox className="icons" /> Chat
         </Link>
-        <Link className="link" to="/History">
-          <FaHistory className="icons" /> History
+        <Link className="link" to="/Log_History">
+          <FaHistory className="icons" />
+          Log History
         </Link>
         <Link className="link" to="/Analytics">
           <FaChartLine className="icons" /> Analytics

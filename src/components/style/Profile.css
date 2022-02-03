@@ -8,5 +8,5 @@
   -o-border-radius: 50%;
   object-fit: contain;
   border: 0.2rem solid #fff;
-  margin: 1rem 1rem 0 0;
+  margin: 1rem 1rem 0.5rem 0;
 }

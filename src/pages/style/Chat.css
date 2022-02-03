@@ -46,24 +46,134 @@
   -o-border-radius: 2rem;
 }
 
-.chatTools {
+.tools {
   width: 100%;
   height: 10%;
-  background-color: red;
-}
-
-.tools {
+  display: grid;
+  place-items: center;
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  list-style-type: none;
+  border-bottom: 0.01rem solid #f0efef;
 }
 
-.tool {
-  width: rem;
-  height: 10rem;
+.Search {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .faTool {
   font-size: 2rem;
+  display: flex;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  color: #c7c9cc;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.faTool:hover {
+  color: #f0efef;
+  background-color: #fd8f00;
+}
+
+.userList {
+  width: 100%;
+  height: 77.49%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+
+.chatArea {
+  color: black;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+.chatArea:hover {
+  color: black;
+  text-decoration: none;
+  background-color: #f0efef;
+}
+
+.userList::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 1rem !important;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+
+.userList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.userList::-webkit-scrollbar-thumb {
+  background: #aaa8a8;
+}
+
+.userList::-webkit-scrollbar-thumb:hover {
+  background: #d6d5d5;
+}
+
+.user {
+  display: flex;
+  border-bottom: 0.01rem solid #f0efef;
+}
+
+.nameLast {
+  width: 100%;
+  height: 10%;
+  margin-left: 0.5rem;
+}
+.chatUserImg {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  border: 0.4rem solid #f0efef;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0.5rem;
+}
+
+.userName {
+  font-weight: 700;
+  color: #000 !important;
+}
+
+.tool {
+  font-size: 1.2rem;
+  color: #c7c9cc;
+  margin-right: 0.5rem;
+}
+.tol {
+  font-size: 1.2rem;
+  color: #777777;
+  margin-right: 0.5rem;
+}
+
+.seen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-4rem, -0.9rem);
+  -webkit-transform: translate(-4rem, -0.9rem);
+  -moz-transform: translate(-4rem, -0.9rem);
+  -ms-transform: translate(-4rem, -0.9rem);
+  -o-transform: translate(-4rem, -0.9rem);
 }

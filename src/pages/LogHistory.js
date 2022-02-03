@@ -1,8 +1,8 @@
-import "../pages/style/History.css";
+import "../pages/style/LogHistory.css";
 import React from "react";
 import Sidebar from "../components/Sidebar.js";
 
-function History() {
+function LogHistory() {
   return (
     <div>
       <div>
@@ -13,4 +13,4 @@ function History() {
   );
 }
 
-export default History;
+export default LogHistory;

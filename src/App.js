@@ -4,7 +4,7 @@ import Analytics from "./pages/Analytics";
 import Logout from "./pages/Logout";
 import Profile from "./pages/Profile";
 import Users from "./pages/Users";
-import History from "./pages/History";
+import LogHistory from "./pages/LogHistory";
 import Revenue from "./pages/Revenue";
 import Expenses from "./pages/Expenses";
 import Home from "./pages/Home";
@@ -26,7 +26,7 @@ function App() {
         <Route path="/" exact element={<Logout />} />
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/Users" element={<Users />} />
-        <Route path="/History" element={<History />} />
+        <Route path="/Log_History" element={<LogHistory />} />
         <Route path="/Analytics" element={<Analytics />} />
         <Route path="/Revenue" element={<Revenue />} />
         <Route path="/Expenses" element={<Expenses />} />
