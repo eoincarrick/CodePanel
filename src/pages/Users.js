@@ -10,10 +10,10 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { FaEye } from "react-icons/fa";
 
-// <FaGithub className="faIcons" />
-//           <FaGitlab className="faIcons lab" />
-//           <FaStackOverflow className="faIcons lab" />
-//           <FaCodepen className="faIcons" />
+// <FaGithub className="usersProImg" />
+//           <FaGitlab className="usersProImg lab" />
+//           <FaStackOverflow className="usersProImg lab" />
+//           <FaCodepen className="usersProImg" />
 
 function Users() {
   const [user, setUser] = useContext(UserContext);
@@ -37,26 +37,26 @@ function Users() {
               <div className="userTitle">
                 <li className="userTitleList width">{users.username}</li>
                 <li className="userTitleList ">
-                  <img className="faIcons" src={users.profileURL} alt="" />
+                  <img className="usersProImg" src={users.profileURL} alt="" />
                 </li>
                 <li className="userTitleList">
                   <img
-                    className="faIcons"
+                    className="usersProImg"
                     src={users.codeSpace.GitHub}
                     alt=""
                   />
                   <img
-                    className="faIcons"
+                    className="usersProImg"
                     src={users.codeSpace.GitLab}
                     alt=""
                   />
                   <img
-                    className="faIcons"
+                    className="usersProImg"
                     src={users.codeSpace.GitBucket}
                     alt=""
                   />
                   <img
-                    className="faIcons"
+                    className="usersProImg"
                     src={users.codeSpace.CodePen}
                     alt=""
                   />

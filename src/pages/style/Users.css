@@ -36,51 +36,7 @@
   overflow-x: hidden;
 }
 
-.informationHeader {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  padding: 0.5rem;
-  border-bottom: 0.2rem solid #f0efef;
-}
-
-.spanTitle {
-  text-align: center;
-  margin: 2rem rem;
-}
-
-.spanList {
-  margin: 0rem 2rem;
-}
-
-.list {
-  list-style-type: none;
-}
-
-.l {
-  padding: 1rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-.imageProfile {
-  width: 2rem;
-  height: 2rem;
-  object-fit: contain;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border: 0.2rem solid #f0efef;
-}
-
-.underLine {
-  border-bottom: 0.01rem solid #f0efef;
-  display: flex;
-}
-
-.faIcons {
+.usersProImg {
   width: 2rem;
   height: 2rem;
   margin: 0 0.1rem;
@@ -124,18 +80,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.tableHeader {
-  font-size: 1.1rem;
-  font-weight: 700;
-  padding: 1rem;
-}
-
-td,
-th {
-  text-align: center;
-  padding: 8px;
 }
 
 .usersInformation::-webkit-scrollbar {
