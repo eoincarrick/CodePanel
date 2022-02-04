@@ -32,6 +32,8 @@
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .informationHeader {
@@ -109,6 +111,10 @@ table {
 
 .mainTableHeader {
   border-bottom: 0.2rem solid #f0efef;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .tableHeader {
@@ -121,4 +127,26 @@ td,
 th {
   text-align: center;
   padding: 8px;
+}
+
+.usersInformation::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 1rem !important;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+
+.usersInformation::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.usersInformation::-webkit-scrollbar-thumb {
+  background: #aaa8a8;
+}
+
+.usersInformation::-webkit-scrollbar-thumb:hover {
+  background: #d6d5d5;
 }
