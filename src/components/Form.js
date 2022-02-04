@@ -4,48 +4,43 @@ import "./style/Form.css";
 function Form() {
   return (
     <form className="formContainer">
-      <div className="firstAndLastName">
-        <div className="inputAndFname">
-          <label htmlFor="fname">First Name</label>
+      <div className="formBox">
+        <div className="firstAndLastName inputDiv">
+          <label htmlFor="flname">Name</label>
           <input
-            className="inputs"
+            className="flname"
             type="text"
-            id="fname"
-            placeholder="eg. Eoin"
+            id="flname"
+            placeholder="Eoin Carrick"
             required
           />
         </div>
 
-        <div className="inputLname">
-          <label htmlFor="lname">Last Name</label>
+        <div className="emails inputDiv">
+          <label htmlFor="email">E-Mail</label>
           <input
-            className="inputs"
-            type="text"
-            id="lname"
-            placeholder="eg. Carrick"
+            className="email"
+            type="email"
+            id="email"
+            placeholder="eoincarrick@eoin.com"
             required
           />
+        </div>
+
+        <div className=".text inputDiv">
+          <label htmlFor="reason">Reason For Contacting Us.</label>
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Let us know how we can help😊"
+            required
+          ></textarea>
+        </div>
+
+        <div className="inputBtn inputDiv">
+          <input className="submit" type="submit" value="Submit"></input>
         </div>
       </div>
-
-      <label htmlFor="email">E-Mail Address</label>
-      <input
-        className="inputs"
-        type="email"
-        id="email"
-        placeholder="eg. examples@mail.com.."
-        required
-      />
-
-      <label htmlFor="reason">Reason For Contacting Us.</label>
-      <textarea
-        cols="30"
-        rows="10"
-        placeholder="Let us know how we can help😊"
-        required
-      ></textarea>
-
-      <input className="submit" type="submit" value="Submit"></input>
     </form>
   );
 }

@@ -16,6 +16,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow-y: scroll;
+}
+
+.homeContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.homeContainer::-webkit-scrollbar-thumb {
+  background: #aaa8a8;
+}
+
+.homeContainer::-webkit-scrollbar-thumb:hover {
+  background: #d6d5d5;
 }
 
 .h1Header {

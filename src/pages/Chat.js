@@ -17,7 +17,7 @@ function ran() {
   const int = Math.floor(Math.random() * minute.length);
   return minute[int];
 }
-console.log(ran());
+// console.log(ran());
 
 function Chat() {
   const [user, setUser] = useContext(UserContext);
@@ -67,6 +67,12 @@ function Chat() {
               ))}
             </div>
           </div>
+        </div>
+
+        <div className="chatEnvironment">
+          <div className="chatHeader">Header</div>
+          <div className="chatBody">Body</div>
+          <div className="chatFooter">Input</div>
         </div>
       </div>
     </div>

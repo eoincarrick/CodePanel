@@ -3,17 +3,8 @@ import React from "react";
 import Sidebar from "../components/Sidebar.js";
 import Search from "../components/Search";
 import Profile from "../components/Profile";
-// import Punk from "../assets/f.jpg";
-// import { FaGithub, FaGitlab, FaStackOverflow, FaCodepen } from "react-icons/fa";
 import { UserContext } from "../context/UserContext";
 import { useContext } from "react";
-import { Link } from "react-router-dom";
-import { FaEye } from "react-icons/fa";
-
-// <FaGithub className="usersProImg" />
-//           <FaGitlab className="usersProImg lab" />
-//           <FaStackOverflow className="usersProImg lab" />
-//           <FaCodepen className="usersProImg" />
 
 function Users() {
   const [user, setUser] = useContext(UserContext);
