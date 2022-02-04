@@ -14,7 +14,6 @@ import Team from "./House/Team";
 import BusinessAccount from "./pages/BusinessAccount";
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
-import Data from "./Data/Data.json";
 
 function App() {
   return (

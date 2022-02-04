@@ -3,23 +3,13 @@ import React from "react";
 import Sidebar from "../components/Sidebar.js";
 import Search from "../components/Search";
 import Profile from "../components/Profile";
-import User from "./User";
+import Punk from "../assets/f.jpg";
+import { FaGithub, FaGitlab, FaStackOverflow, FaCodepen } from "react-icons/fa";
 
-function Users({
-  username,
-  profile,
-  gitHub,
-  gitBucket,
-  gitLab,
-  codePen,
-  views,
-}) {
+function Users() {
   return (
     <>
-      <div>
-        <Sidebar />
-        <User />
-      </div>
+      <Sidebar />
       <div className="historyContainer">
         <div className="components">
           <Search />
@@ -44,18 +34,298 @@ function Users({
               <th className="tableHeader">Code Views</th>
             </tr>
             <tr className="underLine">
-              <td className="username">{username}</td>
+              <td className="username">eoincarrick</td>
               <td className="proImg">
-                <img className="imageProfile" src={profile} alt="" />
+                <img className="imageProfile" src={Punk} alt="punk" />
               </td>
               <td className="imgCodeSpace">
-                <img src={gitHub} alt="" />
-                <img src={gitLab} alt="" />
-                <img src={codePen} alt="" />
-                <img src={gitBucket} alt="" />
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
               </td>
               <td className="country">Germany</td>
-              <td className="views">{views}</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
+            </tr>
+            <tr className="underLine">
+              <td className="username">eoincarrick</td>
+              <td className="proImg">
+                <img className="imageProfile" src={Punk} alt="punk" />
+              </td>
+              <td className="imgCodeSpace">
+                <FaGithub className="faIcons" />
+                <FaGitlab className="faIcons lab" />
+                <FaStackOverflow className="faIcons lab" />
+                <FaCodepen className="faIcons" />
+              </td>
+              <td className="country">Germany</td>
+              <td className="views">12K</td>
             </tr>
           </table>
 
