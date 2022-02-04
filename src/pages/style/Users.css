@@ -77,6 +77,7 @@
 
 .underLine {
   border-bottom: 0.01rem solid #f0efef;
+  display: flex;
 }
 
 .faIcons {
@@ -91,30 +92,38 @@
   border: 0.2rem solid #f0efef;
 }
 
-.lab {
-  color: #ff5e00;
-}
-
-.users {
+.title {
   display: flex;
   justify-content: center;
-  justify-content: space-around;
-  padding: 0.5rem;
-}
-
-table {
+  justify-content: space-evenly;
   width: 100%;
-  text-align: center;
   padding: 1rem;
-  border-collapse: collapse;
-}
-
-.mainTableHeader {
   border-bottom: 0.2rem solid #f0efef;
   background-color: #fff;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+.titleList {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.userTitle {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.userTitleList {
+  list-style: none;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .tableHeader {

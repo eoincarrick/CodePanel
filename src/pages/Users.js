@@ -3,10 +3,20 @@ import React from "react";
 import Sidebar from "../components/Sidebar.js";
 import Search from "../components/Search";
 import Profile from "../components/Profile";
-import Punk from "../assets/f.jpg";
-import { FaGithub, FaGitlab, FaStackOverflow, FaCodepen } from "react-icons/fa";
+// import Punk from "../assets/f.jpg";
+// import { FaGithub, FaGitlab, FaStackOverflow, FaCodepen } from "react-icons/fa";
+import { UserContext } from "../context/UserContext";
+import { useContext } from "react";
+import { Link } from "react-router-dom";
+import { FaEye } from "react-icons/fa";
 
-function Users({ username, profile }) {
+// <FaGithub className="faIcons" />
+//           <FaGitlab className="faIcons lab" />
+//           <FaStackOverflow className="faIcons lab" />
+//           <FaCodepen className="faIcons" />
+
+function Users() {
+  const [user, setUser] = useContext(UserContext);
   return (
     <>
       <Sidebar />
@@ -16,29 +26,45 @@ function Users({ username, profile }) {
           <Profile />
         </div>
         <div className="usersInformation">
-          <table>
-            <tr className="mainTableHeader">
-              <th className="tableHeader">Username</th>
-              <th className="tableHeader">Profile</th>
-              <th className="tableHeader">CodeSpace</th>
-              <th className="tableHeader">Country</th>
-              <th className="tableHeader">Code Views</th>
-            </tr>
-            <tr className="underLine">
-              <td className="username">{username}</td>
-              <td className="proImg">
-                <img className="imageProfile" src={profile} alt="punk" />
-              </td>
-              <td className="imgCodeSpace">
-                <FaGithub className="faIcons" />
-                <FaGitlab className="faIcons lab" />
-                <FaStackOverflow className="faIcons lab" />
-                <FaCodepen className="faIcons" />
-              </td>
-              <td className="country">Germany</td>
-              <td className="views">12K</td>
-            </tr>
-          </table>
+          <div className="title">
+            <li className="titleList">Username</li>
+            <li className="titleList">Profile</li>
+            <li className="titleList">codeSpace</li>
+            <li className="titleList">Views</li>
+          </div>
+          {user.map((users) => (
+            <>
+              <div className="userTitle">
+                <li className="userTitleList width">{users.username}</li>
+                <li className="userTitleList ">
+                  <img className="faIcons" src={users.profileURL} alt="" />
+                </li>
+                <li className="userTitleList">
+                  <img
+                    className="faIcons"
+                    src={users.codeSpace.GitHub}
+                    alt=""
+                  />
+                  <img
+                    className="faIcons"
+                    src={users.codeSpace.GitLab}
+                    alt=""
+                  />
+                  <img
+                    className="faIcons"
+                    src={users.codeSpace.GitBucket}
+                    alt=""
+                  />
+                  <img
+                    className="faIcons"
+                    src={users.codeSpace.CodePen}
+                    alt=""
+                  />
+                </li>
+                <li className="userTitleList">{`${users.Repositories}K`}</li>
+              </div>
+            </>
+          ))}
         </div>
       </div>
     </>

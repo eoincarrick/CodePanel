@@ -14,27 +14,30 @@ import Team from "./House/Team";
 import BusinessAccount from "./pages/BusinessAccount";
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
+import { UserProvider } from "./context/UserContext";
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/Chat" element={<Chat />} />
-        <Route path="/Profile" element={<Profile />} />
-        <Route path="/" exact element={<Logout />} />
-        <Route path="/Dashboard" element={<Dashboard />} />
-        <Route path="/Users" element={<Users />} />
-        <Route path="/Log_History" element={<LogHistory />} />
-        <Route path="/Analytics" element={<Analytics />} />
-        <Route path="/Revenue" element={<Revenue />} />
-        <Route path="/Expenses" element={<Expenses />} />
-        <Route path="/BusinessAccount" element={<BusinessAccount />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Team" element={<Team />} />
-      </Routes>
-    </div>
+    <UserProvider>
+      <div className="App">
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/Chat" element={<Chat />} />
+          <Route path="/Profile" element={<Profile />} />
+          <Route path="/" exact element={<Logout />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Users" element={<Users />} />
+          <Route path="/Log_History" element={<LogHistory />} />
+          <Route path="/Analytics" element={<Analytics />} />
+          <Route path="/Revenue" element={<Revenue />} />
+          <Route path="/Expenses" element={<Expenses />} />
+          <Route path="/BusinessAccount" element={<BusinessAccount />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Team" element={<Team />} />
+        </Routes>
+      </div>
+    </UserProvider>
   );
 }
 
