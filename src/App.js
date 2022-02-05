@@ -5,13 +5,13 @@ import Logout from "./pages/Logout";
 import Profile from "./pages/Profile";
 import Users from "./pages/Users";
 import LogHistory from "./pages/LogHistory";
-import Revenue from "./pages/Revenue";
-import Expenses from "./pages/Expenses";
+import Fork from "./pages/Fork";
+import ConnectedAccount from "./pages/ConnectedAccount";
 import Home from "./pages/Home";
 import About from "./House/About";
 import Contact from "./House/Contact";
 import Team from "./House/Team";
-import BusinessAccount from "./pages/BusinessAccount";
+import Repositories from "./pages/Repositories";
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
 import { UserProvider } from "./context/UserContext";
@@ -29,9 +29,9 @@ function App() {
           <Route path="/Users" element={<Users />} />
           <Route path="/Log_History" element={<LogHistory />} />
           <Route path="/Analytics" element={<Analytics />} />
-          <Route path="/Revenue" element={<Revenue />} />
-          <Route path="/Expenses" element={<Expenses />} />
-          <Route path="/BusinessAccount" element={<BusinessAccount />} />
+          <Route path="/Fork" element={<Fork />} />
+          <Route path="/ConnectedAccount" element={<ConnectedAccount />} />
+          <Route path="/Repositories" element={<Repositories />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Team" element={<Team />} />

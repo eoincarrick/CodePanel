@@ -16,3 +16,94 @@
   position: absolute;
   top: 5rem;
 }
+
+.mainLogHistory {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.logHistory {
+  width: 100%;
+  height: 96%;
+  margin: 1.4% 2%;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  overflow-y: scroll;
+}
+
+/* .logHistory::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 1rem !important;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+} */
+
+.logHistory::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.logHistory::-webkit-scrollbar-thumb {
+  background: #aaa8a8;
+}
+
+.logHistory::-webkit-scrollbar-thumb:hover {
+  background: #d6d5d5;
+}
+
+.logHistory > h3 {
+  text-align: center;
+}
+
+.punkImg {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 0.2rem solid #f0efef;
+}
+.logImg {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.logList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  border-bottom: 0.01rem solid #f0efef;
+}
+
+.listLogs {
+  margin: 1rem;
+  list-style: none;
+  font-weight: 600;
+}
+
+.usernamesLog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lab {
+  color: #ff6005;
+}

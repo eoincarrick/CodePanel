@@ -19,6 +19,16 @@
   overflow-y: scroll;
 }
 
+.homeContainer::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 1rem !important;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+
 .homeContainer::-webkit-scrollbar-track {
   background: transparent;
 }
