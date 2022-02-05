@@ -25,13 +25,13 @@ function Dashboard() {
             </div>
 
             <div className="subNavbar">
-              <Link className="links" to="/Repositories">
+              <Link className="links" to="/Profile">
                 Repositories
               </Link>
-              <Link className="links" to="/Fork">
+              <Link className="links" to="/Profile">
                 Fork
               </Link>
-              <Link className="links" to="/ConnectedAccount">
+              <Link className="links" to="/Profile">
                 Connected Account
               </Link>
             </div>

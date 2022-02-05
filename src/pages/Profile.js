@@ -3,12 +3,14 @@ import React from "react";
 import Sidebar from "../components/Sidebar.js";
 import Punk from "../assets/e.jpg";
 import {
+  FaBitbucket,
   FaCodepen,
   FaDotCircle,
   FaGithub,
   FaGitlab,
   FaStackOverflow,
-  FaTwitter,
+  FaCode,
+  FaFreeCodeCamp,
 } from "react-icons/fa";
 
 function Profile() {
@@ -45,13 +47,13 @@ function Profile() {
                   <FaGitlab className="followIcon" />
                 </li>
                 <li className="pIcon">
-                  <FaTwitter className="followIcon" />
+                  <FaFreeCodeCamp className="followIcon" />
                 </li>
                 <li className="pIcon">
                   <FaCodepen className="followIcon" />
                 </li>
                 <li className="pIcon">
-                  <FaGithub className="followIcon" />
+                  <FaBitbucket className="followIcon" />
                 </li>
               </p>
             </div>
@@ -62,6 +64,76 @@ function Profile() {
                 Tailwind, Bootstrap. I really love what I do especially
                 debugging😂. Knowledge: D3.js
               </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="connectedAccount">
+          <div className="account other">
+            <h3>Connected Account</h3>
+            <div>
+              <img className="connectedImg" src={Punk} alt="" />
+            </div>
+            <div className="btnConnected">
+              <button>Disconnect Account</button>
+            </div>
+          </div>
+
+          <div className="fork other">
+            <h3>Fork</h3>
+            <div className="forked">
+              <p>O</p>
+              <p>Forked</p>
+            </div>
+          </div>
+          <div className="repositories other">
+            <h3>Repositories</h3>
+            <div className="filesR">
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
+              <div className="resFiles">
+                <FaCode />
+              </div>
             </div>
           </div>
         </div>
