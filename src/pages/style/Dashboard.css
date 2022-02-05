@@ -79,8 +79,8 @@
 }
 
 .setLocation {
-  width: 45rem;
-  height: 15rem;
+  width: 52rem;
+  height: 25rem;
   background-color: #ffffff;
   margin: 2rem;
   border-radius: 2rem;
@@ -89,4 +89,10 @@
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
   box-shadow: 0 0 0.2rem 0.01rem rgb(207, 206, 206);
+}
+
+#chart {
+  width: 50rem;
+  height: 20rem;
+  padding: 1.3rem;
 }
