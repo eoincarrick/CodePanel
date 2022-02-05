@@ -1,13 +1,20 @@
 import "../pages/style/Chat.css";
 import React from "react";
 import Search from "../components/Search.js";
-import { FaArrowAltCircleLeft, FaEye } from "react-icons/fa";
+import {
+  FaArrowAltCircleLeft,
+  FaEye,
+  FaGithub,
+  FaGrinTears,
+  FaMicrophone,
+  FaPaperclip,
+  FaPaperPlane,
+} from "react-icons/fa";
 import Profile from "../components/Profile";
 import { Link } from "react-router-dom";
 import Image from "../assets/d.jpg";
 import { UserContext } from "../context/UserContext";
 import { useContext } from "react";
-import { mdiAccountEyeOutline } from "@mdi/js";
 
 let minute = [
   12, 34, 54, 65, 76, 12, 45, 87, 65, 54, 43, 32, 21, 74, 53, 42, 75, 86, 97,
@@ -70,9 +77,55 @@ function Chat() {
         </div>
 
         <div className="chatEnvironment">
-          <div className="chatHeader">Header</div>
-          <div className="chatBody">Body</div>
-          <div className="chatFooter">Input</div>
+          <div className="chatHeader">
+            <div className="profileChatting">
+              <div className="chatFlex">
+                <img className="chatUserImg" src={Image} alt="" />
+                <p>username</p>
+              </div>
+              <div className="chatLast">
+                <p>Last Seen was...</p>
+              </div>
+            </div>
+
+            <div className="more">
+              <div className="codeSpaceProfile">
+                <FaGithub className="chatUserImg" />
+                <div className="green ava"></div>
+              </div>
+            </div>
+          </div>
+          <div className="chatBody">
+            <div className="userSender">
+              <h1 className="sender">Hey! How are you doing?</h1>
+              <h1 className="sender">Hey! Are you ignoring me?</h1>
+              <h1 className="sender">Hey! I'm here to give you money 😀</h1>
+            </div>
+
+            <div className="userReceiver">
+              <h1 className="receiver">Hey! How are you doing?</h1>
+              <h1 className="receiver">Hey! Are you ignoring me?</h1>
+              <h1 className="receiver">Hey! I'm here to give you money 😀</h1>
+            </div>
+          </div>
+          <div className="chatFooter">
+            <div className="tolBox">
+              <FaGrinTears className="chatFooterIcons" />
+              <FaPaperclip className="chatFooterIcons" />
+            </div>
+            <div className="chatFooterInput">
+              <input
+                className="footerInput"
+                type="text"
+                name="text"
+                placeholder="Type a message"
+              />
+            </div>
+            <div className="speaker">
+              <FaPaperPlane className="chatFooterIcons plane" />
+              <FaMicrophone className="chatFooterIcons" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
