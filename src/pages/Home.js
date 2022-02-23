@@ -11,6 +11,7 @@ function Home() {
       <div>
         <Navbar />
       </div>
+
       <div className="homeContainer">
         <div className="h1Header">
           <h1>
@@ -18,6 +19,7 @@ function Home() {
             <br />
             <span className="color">Connected</span>
           </h1>
+
           <p className="headerPara">
             A place where developers can reply, push, commit, export, clone,
             fork easily into any account like GitHub, GitLab, BitBucket,
@@ -33,6 +35,7 @@ function Home() {
             </div>
           </Link>
         </div>
+
         <div className="homeImg">
           <img className="imgHome" src={HomeImage} alt="" />
         </div>

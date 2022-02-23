@@ -12,6 +12,8 @@ import About from "./House/About";
 import Contact from "./House/Contact";
 import Team from "./House/Team";
 import Repositories from "./pages/Repositories";
+import _404page from "./pages/_404page";
+
 import "./style/App.css";
 import { Routes, Route } from "react-router-dom";
 import { UserProvider } from "./context/UserContext";
@@ -35,6 +37,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Team" element={<Team />} />
+          <Route path="*" element={<_404page />} />
         </Routes>
       </div>
     </UserProvider>
