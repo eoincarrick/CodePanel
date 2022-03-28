@@ -4,36 +4,35 @@ import { Link } from 'react-router-dom';
 import { FaUsers, FaAt, FaBuilding, FaSignInAlt } from 'react-icons/fa';
 
 //Style Imports
-import css from '../styles/Navbar.module.css'
-
+import css from '../styles/Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <div className='navbarContainer'>
-      <div className='linkContainer'>
+    <div className={css.navbarContainer}>
+      <nav className={css.nav}>
         <Link to='/'>
-          <div className='logoMain linkList'>
-            <div></div>
-            <div></div>
-            <div></div>
+          <div className={`${css.logoContainer} `}>
+            <div className={css.logo}></div>
+            <div className={css.logo}></div>
+            <div className={css.logo}></div>
           </div>
         </Link>
-        <Link className='linkList' to='/About'>
-          <FaBuilding className='icon' /> About
+        <Link className={css.item} to='/about'>
+          <FaBuilding className={css.icon} /> About
         </Link>
-        <Link className='linkList' to='/Contact'>
-          <FaAt className='icon' />
+        <Link className={css.item} to='/contact'>
+          <FaAt className={css.icon} />
           Contact
         </Link>
-        <Link className='linkList' to='/Team'>
-          <FaUsers className='icon' />
+        <Link className={css.item} to='/team'>
+          <FaUsers className={css.icon} />
           Team
         </Link>
-        <Link className='linkList' to='/Dashboard'>
-          <FaSignInAlt className='icon' />
+        <Link className={css.item} to='/dashboard'>
+          <FaSignInAlt className={css.icon} />
           Login
         </Link>
-      </div>
+      </nav>
     </div>
   );
 };
