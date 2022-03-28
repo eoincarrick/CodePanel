@@ -1,4 +1,11 @@
+//React Imports
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { FaUsers, FaAt, FaBuilding, FaSignInAlt } from 'react-icons/fa';
+
+//Style Imports
+import css from '../styles/Navbar.module.css'
+
 
 const Navbar = () => {
   return (
